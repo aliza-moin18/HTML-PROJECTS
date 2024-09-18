@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Registration Form </title>
+ 
+</head>
+
+<body style="background-color: rgb(78, 37, 37); color: rgb(255, 255, 255);">
+
+<center>
+  <form>
+
+    <fieldset> 
+        <h1><i> Student Registration Form </i></h1> 
+     
+        <p><label> NAME: <input type="text" id="name" name="name"/></label> </p>
+        <p><label> FATHER NAME: <input type="text" id="F name" name="father name"/></label> </p>
+        <p><label> MOTHER NAME: <input type="text" id="M name" name="mother name"/></label> </p>
+        <p><label>  PHONE NO: <input type="text" id="phone" name="phone num"/> </label></p>
+        <p><label>  EMAIL: <input type="text" id="email" name="email"> </label></p>
+    
+
+        <p> GENDER <label> FEMALE: <input type="radio" name="gender"> </label>
+        <label> MALE: <input type="radio" name="gender"> </label>
+        <label> OTHERS: <input type="radio" name="gender"> </label> </p>
+  
+
+        <p><label> DATE OF BIRTH: <input type="date" name="dob"/> </label></p>
+
+        <p><label> ADDRESS: <input type="text" name="address"/> </label></p>
+  
+
+         <label for="bloodGroup">Blood Group:</label>
+         <select id="bloodGroup" name="bloodGroup">
+           <option value="A+">A+</option>
+           <option value="A-">A-</option>
+           <option value="B+">B+</option>
+           <option value="B-">B-</option>
+           <option value="O+">O+</option>
+           <option value="O-">O-</option>
+           <option value="AB+">AB+</option>
+           <option value="AB-">AB-</option>
+         </select>
+          
+
+        <p> DEPARTMENT 
+          <label> CSE: <input type="radio" name="department" value="CSE"/> </label> 
+          <label> EEE: <input type="radio" name="department" value="EEE"/> </label> 
+          <label> BBA: <input type="radio" name="department" value="BBA"/> </label> 
+        </p>
+  
+            
+        <p> COURSE
+          <label> HTML: <input type="checkbox" name="course" value="HTML"/> </label> 
+          <label> CSS: <input type="checkbox" name="course" value="CSS" /> </label> 
+          <label> TYPESCRIPT: <input type="checkbox" name="course" value="TYPESCRIPT"/> </label> 
+          <label> NEXTJS: <input type="checkbox" name="course" value="NEXTJS"/> </label> 
+        </p>
+  
+        <p> 
+          <label>PHOTO <input type="file" value="image"/>  </label>
+        </p>
+   
+      <button> Submit </button>
+      <button> Reset </button>
+  
+    </fieldset>
+
+  </form>
+</center>
+
+</body>
+</html>
+  
