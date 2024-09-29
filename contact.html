@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Portfolio </title>
+</head>
+
+<body>
+      <!-- Navigation Section -->
+
+<nav style="background-color: rgb(60, 91, 214); padding: 25px; display:flex; align-items: center; justify-content: space-between; height: 95px; border-radius: 14px; margin: 25px;">
+
+    <img style="height: 143px; margin-left: 25px;" src="logo.jpeg"  alt="logo">
+            
+      <ul style="list-style-type: none; display: inline-block; font-size: 30px; margin-right: 250px;">
+      
+          <li style="display: inline; margin-right: 26px;"> 
+            <a href="index.html" style="text-decoration: none; color: white;">HOME</a> 
+          </li>
+      
+          <li style="display: inline; margin-right: 26px;"> 
+             <a href="about.html" style="text-decoration: none; color: white;" >ABOUT</a> 
+          </li>
+      
+          <li style="display: inline; margin-right: 26px;"> 
+            <a href="portfolio.html" style="text-decoration: none; color: white;" >PORTFOLIO</a>
+          </li>
+      
+           <li style="display: inline;  margin-right: 26px;"> 
+              <a href="contact.html" style="text-decoration: none; color: white;"> CONTACT</a> 
+            </li>
+      </ul>
+  </nav>
+
+
+   <!-- Contact section -->
+
+    <section id="contact">
+
+    <fieldset style="margin: 28px;">
+        <legend> Your Details:</legend>
+
+            <label for="name"> Name: <input id="name" type="text" name="name" required></label> <br><br>
+            <label for="email"> Email: <input id="email" type="email" name="email" required>   </label> <br>
+
+    </fieldset> <br> 
+
+    <fieldset style="margin: 28px; margin-top: -30px;">
+         <legend> Your Review: </legend> <br>
+
+         <label for="hear"> How do you hear about us? </label> 
+         <select id="hear" name="hear">
+           <option value="google"> Google </option>
+           <option value="google"> Family </option>
+           <option value="friend"> Friend </option>
+           <option value="advertisement"> Advertisement</option>
+         </select> <br><br>
+        
+
+        <p> Would you visit again? </p> 
+        <label for="Y"> <input type="radio" name="visit"> Yes </label>
+        <label for="N"> <input type="radio" name="visit" > No </label>
+        <label for="M"> <input type="radio" name="visit" > Maybe </label>  <br><br>
+
+         <p>Comments : </p>
+        <label for="comment"> <textarea id="comment" name="comment" rows="4"></textarea></label>
+
+         <p>
+            <label for="sign"> <input type="checkbox" id="sign" name="sign"> Sign me up for email updates  </label>
+        </p>
+
+           <button> Submit review </button>
+     </fieldset>
+     
+   </section>
+</body>
+</html>
