@@ -1,0 +1,54 @@
+body {
+    font-family: "Garamond", sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 58px;
+    font-family: 'Lucida Console';  
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Segoe UI Bold";
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.AI {
+   line-height: 33px;
+   margin-top: 40px;
+}
+
+.AI a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.AI a:hover {
+    color: rgb(83, 36, 238);
+}
+
+ 
+   /* Content */
+.content h3::first-letter {
+    font-size: 47px;
+}
+
+.content h3 {
+    font-size: 30px;
+}
+
+.content p {
+    color: rgb(66, 61, 61);
+}
+
+.Link {
+    text-align: center;
+    margin: 60px;
+    margin-bottom: 150px;
+}
